@@ -1,0 +1,124 @@
+body{
+	background: #f9f9f9;
+}
+
+#wrapper{
+	width: 966px;
+	background: #fff;
+	padding: 50px 48px 60px 46px;
+	margin: 0 auto;
+	box-shadow: 0 0 5px rgba(0,0,0,0.3);
+}
+
+#logo{
+	background: white url("../image/logo.jpg") no-repeat;
+	width:145px;
+	height: 40px;
+	margin-bottom: 40px;
+}
+
+#top-menu{
+	width: 966px;
+	height: 40px;
+	background: url("../image/top_menu.jpg") repeat-x;
+}
+
+#top-menu a{
+	display:block;
+	float: left;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	color:#fff;
+	font-size: 14px;
+	margin-right: 40px;
+	padding: 11px 20px 12px;
+	
+}
+
+#top-menu a:hover{
+	background: url("../image/top_menu_hover.jpg") repeat-x;
+	border-right: 1px solid #838383;
+	border-left: 1px solid #838383;
+	padding: 11px 19px 12px;
+}
+
+#main{
+	margin: 40px 0;
+	width: 966px;
+	height: 600px;
+}
+
+.left-menu{
+	float:left;
+	width: 240px;
+	border: 1px solid #c8c8c8;	
+	border-bottom: none;
+}
+
+.left-menu a{	
+	text-decoration: none;
+	display: block;
+	width: 220px;
+	height: 26px;
+	border-bottom: 1px solid #c8c8c8;
+	padding-left:  20px;
+	padding-top: 13px;
+	text-decoration: none;
+	color:#656363;
+	font-size: 13px;
+}
+
+.left-menu a:hover{
+	background-color: #f9f9f9;
+	padding-left:  30px;
+	width: 210px;
+	color: #2c2c2c;
+}
+
+.content{
+	width: 680px;
+	float: right;
+}
+
+.photo{
+	background: white url("../image/velobike.jpg") center center no-repeat;
+	height: 400px;
+	width: 678px;
+	border: 1px solid #c8c8c8;
+}
+
+.information{
+	padding: 40px 20px;
+}
+
+#footer{
+	width: 966px;
+	height: 40px;
+	background: #e1e1e1;
+
+}
+
+#footer a {
+	display:block;
+	float: left;
+	text-decoration: none;
+	text-shadow: 1px 1px 1px rgba(0,0,0,0.5);
+	color:#2c2c2c;
+	font-size: 13px;
+	margin-right: 43px;
+	padding: 11px 20px 12px;	
+}
+
+#footer span {
+	border-bottom: 1px solid #2c2c2c;
+}
+
+#copyright {
+	width: 190px;	
+	height: 40;
+	float: right;
+	color:#2c2c2c;
+	padding-top: 11px;
+	margin-right: 20px;
+	text-align: right;
+}
